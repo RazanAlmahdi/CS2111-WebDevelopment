@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Assignment 2</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Photo Details</legend>
+      <table>
+              <tr>
+                <td colspan="2">
+                  <label>Title</label>
+                  <br>
+                  <input type="text" name="title" size="140">
+                  <br>
+                  <label>Description</label>
+                  <br>
+                  <textarea name="description" rows="6" cols="96"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Continent</label><br>
+                    <select name="continent">
+                      <option>Choose continent</option>
+                      <option>Africa</option>
+                      <option>Asia</option>
+                      <option>Europe</option>
+                      <option>North America</option>
+                      <option>South America</option>
+                    </select>
+                    <br>
+                    <label>Country</label><br>
+                    <select name="country">
+                      <option>Choose country</option>
+                      <option>Saudi Arabia</option>
+                      <option>Oman</option>
+                      <option>Egypt</option>
+                      <option>Italy</option>
+                    </select>
+                    <br>
+                    <label>City</label>
+                    <br>
+                    <input type="text" name="city" list="cities"  size="40"/>
+                    <datalist id="cities">
+                      <option>Jeddah</option>
+                      <option>Muscat</option>
+                      <option>Cairo</option>
+                      <option>Rome</option>
+                    </datalist>
+                  </td>
+                  <td>
+                    <div class="container">
+                      <label>Copyright?</label>
+                      <br>
+                      <input type="radio" id="copyright-reserved" name="copyright-reserved" value="1">
+                      <label for="copyright-reserved">All rights reserved</label>
+                      <br>
+                      <input type="radio" id="Creative-Commons" name="Creative-Commons" value="2" checked>
+                      <label for="Creative-Commons">Creative Commons</label>
+                      <br>
+                    </div>
+                    <div class="container">
+                      <label>Creative Commons Types </label>
+                      <br>
+                      <input type="checkbox" id="Attribution" name="Attribution">
+                      <label for="Attribution">Attribution</label>
+                      <br>
+                      <input type="checkbox" id="Noncommercial" name="Noncommercial">
+                      <label for="Noncommercial">Noncommercial</label>
+                      <br>
+                      <input type="checkbox" id="No-Derivative-Works" name="No Derivative Works">
+                      <label for="No-Derivative-Works">No Derivative Works</label>
+                      <br>
+                      <input type="checkbox" id="Share-Alike" name="Share Alike" >
+                      <label for="Share-Alike">Share Alike</label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" >
+                    <div class="rectangle">
+                      <label>I accept the software license</label>
+                      <input type="checkbox" name="accept" >
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label>Rate this photo:</label>
+                    <br>
+                    <input type="number" min="1" max="5" name="rate">
+                    <br>
+                    <label>Color Collection:</label>
+                    <br>
+                    <input type="color"  name="color">
+                  </td>
+                  <td>
+                    <div class="container">
+                      <label>Date Taken:</label>
+                      <br>
+                      <input type="date"  name="date">
+                      <br>
+                      <label>Time Taken:</label>
+                      <br>
+                      <input type="time"  name="time">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <div class="rectangle centered">
+                      <input type="submit" class="btn">
+                      <input type="reset" value="Clear Form" class="btn">
+                    </div>
+                  </td>
+              </tr>
+          </table>
+    </fieldset>
+  </form>
+</body>
+</html>

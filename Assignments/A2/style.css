@@ -1,0 +1,68 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+}
+p{
+  margin-top: 0.5em;
+}
+legend{
+  text-align: center;
+  width:60em;
+  background-color: #e8f3fc;
+  padding: 0.25em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100%;
+}
+form{
+  margin: 1em 15em 1em 15em;
+
+}
+fieldset{
+    background-color: #f2f6ff8a;
+}
+table{
+  padding: 1em 1em 0em 1em;
+}
+table tbody td{
+  line-height: 1.5em;
+  vertical-align: top;
+  padding: 0.5em 0.75em;
+}
+
+.container {
+  border: 1pt solid #95BEF0;
+  padding: 0.5em;
+  margin-bottom: 0.4em;
+}
+
+.rectangle {
+  background-color: #e8f3fc;
+  width: 60em;
+  padding: 0.5em;
+}
+
+.centered {
+  text-align: center;
+}
+.btn {
+  border: 1px solid #172d6e;
+  border-bottom: 1px solid #0e1d45;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  background-color: #7f8dad;
+  padding: 0.5em 0 0.5em 0;
+  margin: 0.3em;
+  width: 7em;
+  -webkit-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 4px 0 #b3b3b3;
+  box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 4px 0 #b3b3b3;
+}
+.btn:hover {
+  background-color: #5d6c8e;
+}
