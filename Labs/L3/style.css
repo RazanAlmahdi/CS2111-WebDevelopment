@@ -1,0 +1,274 @@
+
+
+header, footer, nav, div, p, body {
+   font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+   font-size: 1em;
+}
+
+header {
+   background-color: rgb(63, 159, 217);
+   height: 3em;
+}
+header .brand {
+   font-family: Vendana, Arial, sans-serif;
+
+   padding: 0.5000em 1.2500em 0.7500em;
+   margin-left: 3em;
+   font-size: 1.5em;
+   font-weight: bold;
+   line-height: 1;
+   color: #f5f5f5;
+   text-decoration: none;
+}
+
+header nav {
+
+   margin: 0.70em 1em 0 0;
+
+}
+
+header ul {
+
+   margin:0;
+   padding:0;
+}
+header li {
+
+   padding: 0 1em;
+}
+header li a:link {
+   color: #f5f5f5;
+   text-decoration: none;
+}
+
+/* Main structure */
+
+div#container {
+
+}
+#main {
+   margin: 0 20em 0 16em;
+}
+
+aside {
+
+}
+#rail {
+
+}
+
+/* other common classes */
+
+.well, .alert {
+   margin-bottom: 2em;
+   padding: 1em;
+}
+.well {
+   background-color: #f5f5f5;
+   border: 0.0625em solid #eee;
+   border: 0.0625em solid rgba(0, 0, 0, 0.05);
+}
+.well h3 {
+   background-color: #b6d1f2;
+   padding: 1em;
+}
+
+.alert {
+   background-color: #edebe1;
+   border-color: #e0d9cb;
+   color: #817b58;
+}
+
+.breadcrumb {
+   padding: 0.5em 1em;
+
+   list-style: none;
+   background-color: #fbfbfb;
+}
+
+/* main styles */
+#main {
+   padding: 0.5em 0.75em;
+}
+#main h2 {
+   padding-top: 1em;
+   font-size: 1.5em;
+}
+#main h4 {
+   padding-top: 1.5em;
+   font-size: 1.2em;
+}
+#main th {
+   text-align: left;
+}
+#main table {
+
+}
+
+
+#main #yourCompany {
+
+   margin-bottom: 1.5em;
+   font-size: 0.8em;
+}
+#main #client {
+
+   font-size: 0.8em;
+}
+#main hr {
+   clear: both;
+}
+.bigButton {
+   margin-top: 1em;
+   background-color: rgb(63, 159, 217);
+   text-align: center;
+   color: #f5f5f5;
+   text-decoration: none;
+}
+
+
+/* left rail styles */
+
+#rail nav {
+
+}
+#rail nav  ul {
+   list-style-type:none;
+   font-size: 1.1em;
+}
+#rail nav  ul li {
+   margin-bottom: 0.3em;
+}
+
+/* right aside styles */
+
+ul#changeList, ul#sellersList, ul#messageList {
+   background-color: white;
+   list-style-type:none;
+}
+ul#changeList li {
+   overflow: auto;
+   padding-top: 1em;
+}
+ul#changeList li  p{
+   padding-top: 0.5em;
+}
+ul#changeList li span {
+
+   min-width: 1.75em;
+   text-align: right;
+   font-size: 2em;
+   padding: 0 1em 0 0;
+   color: #616466;
+   text-shadow: 0 0.0625em 0.0625em rgba(0, 0, 0, 0.25);
+}
+
+ul#sellersList li, ul#messageList li {
+   overflow: auto;
+   padding: 1em 0.25em 0 0;
+   font-size: 0.75em;
+}
+ul#sellersList img{
+
+}
+ul#sellersList p {
+   padding-top: 1.5em;
+}
+
+ul#messageList  img {
+
+   padding-right: 0.5em;
+}
+#messageList li  p {
+   font-size: 0.9em;
+   padding: 0.3em 0.25em;
+}
+article{
+  margin: 3em 3em 1em 30em;
+  padding: 1em;
+  background-color: #F5F5F5;
+}
+figure {
+    float: left;
+    position: relative;
+}
+figcaption {
+    background-color: #474747;
+    color: white;
+    height: 1em;
+    top: 8.5em;
+    position: absolute;
+    width: 10.2em;
+    padding-top: 0.3125em;
+    padding-bottom: 0.625em;
+    padding-left: 0.1875em;
+    padding-right: 0.03125em;
+}
+.overlayed {
+    position: absolute;
+    top: 0em;
+    z-index: 1;
+    left: 0em;
+}
+
+.entry {
+   overflow: auto;
+   border-top: 1pt solid #ff8800;
+}
+
+.entry p {
+    text-align: justify;
+    margin-right: 3em;
+}
+
+.linkbutton {
+    background-color: #ff8800;
+    color: white;
+    text-decoration: none;
+    font-size: 0.75em;
+    float: right;
+    margin-right: 3em;
+    padding: 0.625em;
+    display: block;
+}
+
+
+footer {
+   background-color: #474747;
+   color: #cacaca;
+   padding-bottom: 12em;
+}
+footer h2 { color: #a4a1a1; }
+.footer-related {
+    margin: 1em 1em 1em 1em;
+    border-top: 1pt solid #ff8800;
+    float: left;
+}
+.footer-section {
+    border-top: 1pt solid #ff8800;
+    float: right;
+    margin-left: 22em;
+    margin-top: -11.4em;
+    margin-right: 4em;
+}
+.footer-related img { margin: 0.1875em; }
+h1, h2, h3, p, body, div {
+   font-family: Tahoma, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+h1  {
+   font-size: 1.8em;
+   margin: 0.25em 0 0.25em 0;
+}
+h2  {
+   font-size: 1.2em;
+   margin: 0.5em 0 0.25em 0;
+}
+p, body {
+   font-size: 0.9em;
+}
+p {
+   margin-bottom: 1em;
+}
